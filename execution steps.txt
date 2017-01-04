@@ -1,0 +1,11 @@
+Execution steps:
+1.	Run backendserver.py in IP address mentioned in configfile.
+2.	Run backendserver in (IP address: 130.86.67. 252) for primary server1 and mention the IP address in configfile.
+3.	Run one more backendserver 3 in sp1(IP address: 130.86.67.173) for secondary server 2
+4.	Run backendserver 2 in Sp2 (130.86.67.179) for Primary Server 2
+5.	Run backendserver 1 in Sp3 (130.86.67.142) for Secondary Server 1
+6.	Run server.py in any IP address(if it is Athena, it is 130.86.67.252).
+7.	Now, run client.py from any IP. After executing client.py, mention the IP address of server.py(if it is Athena, it is 130.86.67.252).
+8.	You can run any instance of client anywhere.
+9.	Now, you will be able to chat with other clients.
+
